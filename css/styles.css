@@ -1,0 +1,136 @@
+body {
+	background: #fff;
+}
+
+/* header */
+
+.top-line {
+	width: 1440px;
+	height: 72px;
+	flex-shrink: 0;
+	border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+	background: var(--WHITE, #fff);
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	color: var(--IRIS, #4d5ae5);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.logo-span {
+	color: var(--NAVY-BLUE, #2e2f42);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.nav {
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 40px;
+}
+
+.nav-list-link {
+	color: var(--SLATE, #434455);
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.32px;
+
+}
+
+.address {
+    color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+
+
+/*Hero*/
+
+.hero {
+    box-sizing: border-box;
+    width: 1440px;
+height: 600px;
+flex-shrink: 0;
+background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.hero-title {
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 1.12px;
+}
+
+.hero-button {
+    display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Section 1 - Advantages*/
+
+.advan {
+    width: 1128px;
+height: 104px;
+flex-shrink: 0;
+
+}
+
+.advan-name {
+    width: 264px;
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+
+.advan-text {
+    width: 264px;
+    color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
+.advan-item {
+    display: flex;
+width: 264px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
