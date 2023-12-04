@@ -1,7 +1,7 @@
 body {
 	background: #fff;
 	color: #434455;
-	font-family: Roboto;
+	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
@@ -21,21 +21,15 @@ a {
 /* header */
 
 .top-line {
-	width: 1440px;
-	height: 72px;
 	flex-shrink: 0;
-	border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 	background: var(--WHITE, #fff);
-	box-sizing: border-box;
-	display: flex;
 	justify-content: center;
 }
 
 .logo {
 	color: var(--IRIS, #4d5ae5);
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
-	font-style: normal;
 	font-weight: 700;
 	line-height: 1.17;
 	letter-spacing: 0.54px;
@@ -44,9 +38,8 @@ a {
 
 .logo-span {
 	color: var(--NAVY-BLUE, #2e2f42);
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 18px;
-	font-style: normal;
 	font-weight: 700;
 	line-height: 1.17;
 	letter-spacing: 0.54px;
@@ -54,17 +47,12 @@ a {
 }
 
 .nav {
-	display: inline-flex;
-	align-items: flex-start;
-	gap: 40px;
 }
 
 .nav-list-link {
-	color: var(--SLATE, #434455);
-
+	color: var(--SLATE, #2e2f42);
 	font-size: 16px;
-
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
@@ -72,19 +60,16 @@ a {
 .nav-list-link:hover,
 .nav-list-link:focus {
 	color: var(--OCEAN, #404bbf);
-
-	font-size: 16px;
-
 	font-weight: 500;
-	line-height: 1.5;
-	letter-spacing: 0.32px;
+}
+
+.contacts {
+	font-style: normal;
 }
 
 .address {
 	color: var(--SLATE, #434455);
-
 	font-size: 16px;
-
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.32px;
@@ -104,9 +89,6 @@ a {
 /*Hero*/
 
 .hero {
-	box-sizing: border-box;
-	width: 1440px;
-	height: 600px;
 	flex-shrink: 0;
 	background: var(--NAVY-BLUE, #2e2f42);
 }
@@ -121,59 +103,56 @@ a {
 }
 
 .hero-button {
-	display: inline-flex;
-	padding: 16px 32px;
-	align-items: flex-start;
-	gap: 10px;
-	border-radius: 4px;
 	background: var(--IRIS, #4d5ae5);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	background-color: #404bbf;
 }
 
 /* Section 1 - Advantages*/
 
 .advan {
-	box-sizing: border-box;
 	flex-shrink: 0;
 	text-align: center;
 }
 
 .advan-name {
-	width: 264px;
 	color: var(--NAVY-BLUE, #2e2f42);
 
 	font-size: 20px;
 
 	font-weight: 500;
-	line-height: 24px; /* 120% */
+	line-height: 1.2;
 	letter-spacing: 0.4px;
 }
 
 .advan-text {
-	width: 264px;
 	color: var(--SLATE, #434455);
 
 	font-size: 16px;
 
 	font-weight: 400;
-	line-height: 24px; /* 150% */
+	line-height: 1.5;
 	letter-spacing: 0.32px;
 }
 
 .advan-item {
-	display: inline-flex;
 	padding-bottom: 32px;
-	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	gap: 32px;
 }
 
 /* Section 2 - Team */
 
 .team {
-	width: 1440px;
-	height: 732px;
 	flex-shrink: 0;
 	background: var(--CLOUD, #f4f4fd);
 }
@@ -189,22 +168,12 @@ a {
 }
 
 .team-item {
-	display: inline-flex;
 	padding-bottom: 32px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 32px;
-	border-radius: 0px 0px 4px 4px;
 	background: var(--WHITE, #fff);
-	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-		0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-name {
 	color: var(--NAVY-BLUE, #2e2f42);
-	text-align: center;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
@@ -213,7 +182,6 @@ a {
 
 .team-item-desc {
 	color: var(--SLATE, #434455);
-	text-align: center;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -223,9 +191,7 @@ a {
 /* Section 3 - Portfolio */
 
 .port {
-	width: 1128px;
-height: 1000px;
-flex-shrink: 0;
+	flex-shrink: 0;
 }
 
 .port-title {
@@ -239,12 +205,7 @@ flex-shrink: 0;
 }
 
 .port-item {
-	width: 360px;
-	height: 420px;
 	padding-bottom: 32px;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 32px;
 	flex-shrink: 0;
 }
 
@@ -265,19 +226,19 @@ flex-shrink: 0;
 }
 
 /* Footer */
+
 .footer {
-	width: 1440px;
-height: 312px;
-top: 1700px;
-box-sizing: border-box;
-background: var(--NAVY-BLUE, #2E2F42);
-position: relative;
+	background: var(--NAVY-BLUE, #2e2f42);
 }
 
 .footer-text {
-	color: var(--CLOUD, #F4F4FD);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.32px;
+	color: var(--CLOUD, #f4f4fd);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.32px;
+}
+
+.footer-logo-span {
+	color: #f4f4fd;
 }
